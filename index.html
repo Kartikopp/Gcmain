@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gupta Classes - Premium Coaching for CUET, SSC, NDA, Banking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🎓 Gupta Classes</div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="dark-toggle" onclick="toggleDarkMode()">🌙</button></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <div class="urgency-banner">⏰ Limited Seats for CUET 2026 Batch – Only 12 Remaining! Apply Now →</div>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Crack CUET, SSC, NDA with<br><span class="gradient-text">Gupta Classes</span></h1>
+            <p class="hero-subtitle">Trusted by 25+ years | Thousands of selections</p>
+            
+            <div class="hero-stats">
+                <div class="stat"><h3 class="counter" data-target="25">0</h3><p>Years Experience</p></div>
+                <div class="stat"><h3 class="counter" data-target="10000">0</h3><p>Students Selected</p></div>
+                <div class="stat"><h3 class="counter" data-target="50">0</h3><p>Expert Faculty</p></div>
+            </div>
+
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="openLeadForm()">🚀 Enroll Now</button>
+                <button class="btn btn-secondary" onclick="scheduleDemo()">📱 Get Free Demo</button>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2 class="section-title">Our Premium Courses</h2>
+        <p class="section-subtitle">Designed to maximize your success rate</p>
+        
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-icon">📚</div>
+                <h3>CUET Preparation</h3>
+                <p>Comprehensive coaching for CUET entrance exam with AI-powered mock tests</p>
+                <div class="course-features"><span>✓ Live Classes</span><span>✓ Mock Tests</span><span>✓ Doubt Sessions</span></div>
+                <div class="course-price"><span class="price">₹25,000</span><span class="discount">₹35,000</span></div>
+                <button class="btn btn-outline" onclick="openLeadForm()">View Details</button>
+            </div>
+
+            <div class="course-card featured">
+                <div class="badge">Most Popular</div>
+                <div class="course-icon">🎯</div>
+                <h3>SSC Coaching</h3>
+                <p>Complete SSC CGL, CHSL, MTS preparation with proven track record</p>
+                <div class="course-features"><span>✓ Concept Classes</span><span>✓ Speed Building</span><span>✓ Accuracy Training</span></div>
+                <div class="course-price"><span class="price">₹18,000</span><span class="discount">₹28,000</span></div>
+                <button class="btn btn-primary" onclick="openLeadForm()">Enroll Now</button>
+            </div>
+
+            <div class="course-card">
+                <div class="course-icon">🏦</div>
+                <h3>Banking Exams</h3>
+                <p>Expert coaching for IBPS, SBI, RBI with guaranteed results</p>
+                <div class="course-features"><span>✓ Daily Classes</span><span>✓ Weekly Tests</span><span>✓ Career Guidance</span></div>
+                <div class="course-price"><span class="price">₹16,000</span><span class="discount">₹25,000</span></div>
+                <button class="btn btn-outline" onclick="openLeadForm()">View Details</button>
+            </div>
+
+            <div class="course-card">
+                <div class="course-icon">⚔️</div>
+                <h3>NDA Coaching</h3>
+                <p>Specialized NDA preparation with focus on aptitude & general knowledge</p>
+                <div class="course-features"><span>✓ Physical Training</span><span>✓ Interview Prep</span><span>✓ SSB Guidance</span></div>
+                <div class="course-price"><span class="price">₹22,000</span><span class="discount">₹32,000</span></div>
+                <button class="btn btn-outline" onclick="openLeadForm()">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results">
+        <h2 class="section-title">Student Success Stories</h2>
+        <p class="section-subtitle">Real results from real students</p>
+        
+        <div class="results-grid">
+            <div class="result-card"><div class="result-rank">AIR 15</div><h3>Aarav Singh</h3><p>CUET 2025</p><p class="score">Score: 715/720</p></div>
+            <div class="result-card"><div class="result-rank">AIR 42</div><h3>Priya Sharma</h3><p>SSC CGL 2025</p><p class="score">Score: 285/300</p></div>
+            <div class="result-card"><div class="result-rank">AIR 8</div><h3>Rohan Patel</h3><p>NDA 2025</p><p class="score">Score: 398/900</p></div>
+            <div class="result-card"><div class="result-rank">AIR 156</div><h3>Nisha Gupta</h3><p>Banking 2025</p><p class="score">Score: 92.5%</p></div>
+        </div>
+    </section>
+
+    <section id="faculty" class="faculty">
+        <h2 class="section-title">Meet Our Expert Faculty</h2>
+        <p class="section-subtitle">Learn from India's best educators</p>
+        
+        <div class="faculty-grid">
+            <div class="faculty-card"><div class="faculty-image">👨‍🏫</div><h3>Dr. Alok Gupta</h3><p class="faculty-subject">Founder & General Studies Expert</p><p class="faculty-bio">25+ years experience in competitive exams coaching</p><div class="faculty-stats"><span>10K+ Students</span></div></div>
+            <div class="faculty-card"><div class="faculty-image">👩‍🏫</div><h3>Ritu Gupta</h3><p class="faculty-subject">Co-Founder & Reasoning Expert</p><p class="faculty-bio">Specialized in logical reasoning and data interpretation</p><div class="faculty-stats"><span>8K+ Students</span></div></div>
+            <div class="faculty-card"><div class="faculty-image">👨‍🏫</div><h3>Vikram Sharma</h3><p class="faculty-subject">Mathematics & Quantitative Aptitude</p><p class="faculty-bio">IIT Delhi alumni with 15+ years teaching experience</p><div class="faculty-stats"><span>5K+ Students</span></div></div>
+            <div class="faculty-card"><div class="faculty-image">👩‍🏫</div><h3>Anjali Singh</h3><p class="faculty-subject">English Language & Comprehension</p><p class="faculty-bio">Former Delhi University professor, grammar expert</p><div class="faculty-stats"><span>3K+ Students</span></div></div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">What Students Say</h2>
+        <p class="section-subtitle">Real testimonials from our successful students</p>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">"Gupta Classes transformed my approach to competitive exams. The structured curriculum and doubt sessions were game-changers!"</p><div class="testimonial-author"><div class="author-avatar">👨‍💼</div><div><h4>Arjun Kumar</h4><p>CUET 2025 - AIR 312</p></div></div></div>
+            <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">"Best decision of my life. The faculty here doesn't just teach, they mentor. My success is their success."</p><div class="testimonial-author"><div class="author-avatar">👩‍💼</div><div><h4>Divya Patel</h4><p>SSC CGL 2025 - AIR 89</p></div></div></div>
+            <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">"The mock tests and analysis are so realistic. Helped me identify my weak areas and improve strategically."</p><div class="testimonial-author"><div class="author-avatar">👨‍💼</div><div><h4>Sarthak Mishra</h4><p>Banking 2025 - AIR 405</p></div></div></div>
+            <div class="testimonial-card"><div class="stars">★★★★★</div><p class="testimonial-text">"From zero to hero in 6 months. The personalized guidance and constant motivation made all the difference!"</p><div class="testimonial-author"><div class="author-avatar">👩‍💼</div><div><h4>Shreya Desai</h4><p>NDA 2025 - AIR 178</p></div></div></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Why Gupta Classes?</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>25 Years of Excellence</h3>
+                <p>Founded by Dr. Alok Gupta and Ritu Gupta in 1999, Gupta Classes has been the beacon of hope for thousands of aspirants. With a track record of producing top rankers consistently, we've established ourselves as one of India's most trusted coaching institutes.</p>
+                <ul class="features-list">
+                    <li>✓ Expert faculty with 15+ years experience</li>
+                    <li>✓ AI-powered mock tests & analytics</li>
+                    <li>✓ Personalized mentor assignment</li>
+                    <li>✓ 24/7 doubt clearing support</li>
+                    <li>✓ 100% placement assistance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <div class="info-item"><p><strong>📍 Address</strong></p><p>123 Education Lane, Delhi - 110001</p></div>
+                <div class="info-item"><p><strong>📞 Phone</strong></p><p>+91 98765 43210</p></div>
+                <div class="info-item"><p><strong>✉️ Email</strong></p><p>info@guptaclasses.com</p></div>
+                <div class="info-item"><p><strong>🕐 Timing</strong></p><p>Mon - Sat: 8:00 AM - 10:00 PM</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="floating-whatsapp" onclick="openWhatsApp()">💬</div>
+    <div class="sticky-cta"><button class="btn btn-primary" onclick="openLeadForm()">Enroll Now - Limited Seats!</button></div>
+
+    <div id="leadFormModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeLeadForm()">&times;</span>
+            <h2>Secure Your Seat Now</h2>
+            <p class="modal-subtitle">Join 10,000+ successful students</p>
+            <form id="leadForm" onsubmit="handleLeadSubmit(event)">
+                <input type="text" placeholder="Full Name" id="leadName" required>
+                <input type="tel" placeholder="Phone Number" id="leadPhone" required>
+                <input type="email" placeholder="Email Address" id="leadEmail">
+                <select id="leadCourse" required><option value="">Select Course</option><option value="cuet">CUET Preparation</option><option value="ssc">SSC Coaching</option><option value="banking">Banking Exams</option><option value="nda">NDA Coaching</option></select>
+                <button type="submit" class="btn btn-primary btn-full">Get Free Demo Class</button>
+                <p class="modal-note">✓ No spam. We respect your privacy.</p>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section"><h4>Gupta Classes</h4><p>Your pathway to success in competitive exams</p></div>
+            <div class="footer-section"><h4>Quick Links</h4><a href="#courses">Courses</a><a href="#results">Results</a><a href="#contact">Contact</a></div>
+            <div class="footer-section"><h4>Follow Us</h4><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 Gupta Classes. All rights reserved. | Privacy Policy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

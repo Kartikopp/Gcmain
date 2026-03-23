@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('leads', JSON.stringify(leads));
 
             const message = `Hi! My name is ${name}. I'm interested in ${course}. My phone: ${phone}`;
-            window.open(`https://api.whatsapp.com/send?phone=919876543210&text=${encodeURIComponent(message)}`);
+            window.open(`https://api.whatsapp.com/send?phone=919068185259&text=${encodeURIComponent(message)}`);
 
             alert('Thank you! Our team will contact you soon.');
             closeLeadForm();
@@ -92,12 +92,12 @@ document.addEventListener('DOMContentLoaded', () => {
 // Schedule Demo
 function scheduleDemo() {
     alert('Demo class booking feature. WhatsApp us to book now.');
-    window.open('https://api.whatsapp.com/send?phone=919876543210&text=Hi! I want to book a free demo class');
+    window.open('https://api.whatsapp.com/send?phone=919068185259&text=Hi! I want to book a free demo class');
 }
 
 // WhatsApp Integration
 function openWhatsApp() {
-    window.open('https://api.whatsapp.com/send?phone=919876543210&text=Hi! I want to know more about Gupta Classes', '_blank');
+    window.open('https://api.whatsapp.com/send?phone=919068185259&text=Hi! I want to know more about Gupta Classes', '_blank');
 }
 
 // Contact Form Submission
